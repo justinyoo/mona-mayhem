@@ -7,16 +7,16 @@
 > **Nivel:** Intermedio  
 > **Stack:** Astro / Node.js / TypeScript
 
-Construye una aplicación retro estilo arcade para comparar contribuciones de GitHub — **Mona Mayhem** — mientras aprendes todo el espectro de flujos de trabajo de GitHub Copilot. El taller soporta **dos pistas**: una experiencia en VS Code y una experiencia con GitHub Copilot CLI.
+Construye una aplicación retro estilo arcade para comparar contribuciones de GitHub — **Mona Mayhem** — mientras aprendes todo el espectro de flujos de trabajo de GitHub Copilot. El taller admite **dos rutas**: una experiencia en VS Code y una experiencia con GitHub Copilot CLI.
 
 ---
 
-## 🎯 Elige Tu Pista
+## 🎯 Elige Tu Ruta
 
-- **Pista VS Code** — quédate en el editor y practica Chat, Plan Mode, Agent Mode, agentes en segundo plano y el ciclo de revisión integrado.
-- **Pista CLI** — quédate en la terminal y practica `copilot`, contexto con `@file`, `/plan`, ediciones autónomas, `/fleet`, `/delegate` y `/review`.
+- **Ruta VS Code** — quédate en el editor y practica Chat, Plan Mode, Agent Mode, agentes en segundo plano y el ciclo de revisión integrado.
+- **Ruta CLI** — quédate en la terminal y practica `copilot`, contexto con `@file`, `/plan`, ediciones autónomas, `/fleet`, `/delegate` y `/review`.
 
-Sigue la pista que coincida con tu flujo de trabajo preferido.
+Sigue la ruta que coincida con tu flujo de trabajo preferido.
 
 ---
 
@@ -82,7 +82,7 @@ Antes de empezar, verifica:
 | [**01**](01-setup.md) | Configuración y Context Engineering | Crea tu repositorio, prepara tu entorno y dale a Copilot el contexto adecuado |
 | [**02**](02-plan-and-scaffold.md) | Planificar y Estructurar | Diseña la API y la arquitectura de páginas antes de implementar |
 | [**03**](03-agent-mode.md) | Construir el Juego | Conecta la página de batalla y los gráficos de contribuciones con ayuda agéntica |
-| [**04**](04-design-vibes.md) | Diseño Visual Primero | Transforma la estructura base en una experiencia retro arcade |
+| [**04**](04-design-vibes.md) | Temas Design-First | Transforma la estructura base en una experiencia retro arcade |
 | [**05**](05-polish.md) | Pulido y Trabajo Paralelo | Usa flujos de trabajo multi-agente para mejorar UX, resiliencia y calidad |
 | [**06**](06-bonus.md) | Bonus y Extensiones | Explora funcionalidades abiertas, flujos de trabajo de compartición y experimentos extra |
 

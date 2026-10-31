@@ -36,7 +36,7 @@
                     <button class="track-btn active" data-track="vscode" type="button">VS Code</button>
                     <button class="track-btn" data-track="cli" type="button">CLI</button>
                 </div>
-                <span class="track-indicator" id="trackIndicator">Pista VS Code</span>
+                <span class="track-indicator" id="trackIndicator">Ruta VS Code</span>
                 <div class="locale-picker" id="localePicker">
                     <button type="button" class="locale-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Seleccionar idioma">🌐</button>
                     <ul role="listbox" aria-label="Idioma">
@@ -56,7 +56,7 @@
     <div class="layout">
         <aside class="sidebar">
             <div class="sidebar-section">
-                <div class="sidebar-title">Etapas del Taller</div>
+                <div class="sidebar-title">Pasos del Taller</div>
                 <nav id="stepNav"></nav>
             </div>
         </aside>
@@ -76,11 +76,11 @@
         const TRACKS = {
             vscode: {
                 label: 'VS Code',
-                indicator: 'Pista VS Code'
+                indicator: 'Ruta VS Code'
             },
             cli: {
                 label: 'CLI',
-                indicator: 'Pista CLI'
+                indicator: 'Ruta CLI'
             }
         };
 
@@ -412,7 +412,7 @@
                 contentEl.innerHTML = `
                     <div class="markdown">
                         <h1>${step.title}</h1>
-                        <p>No se pudo cargar el contenido. Por favor, consulte el <a href="https://github.com/copilot-dev-days/mona-mayhem" target="_blank">repositorio de GitHub</a> directamente.</p>
+                        <p>No se pudo cargar el contenido. Consulta directamente el <a href="https://github.com/copilot-dev-days/mona-mayhem" target="_blank">repositorio de GitHub</a>.</p>
                         <p style="color: var(--text-secondary); font-size: 0.875rem;">Error: ${err.message}</p>
                     </div>`;
             }
